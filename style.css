@@ -321,3 +321,9 @@ hr {
     bottom: 25% !important;
   }
 }
+
+/* Testimonials */
+
+#testimonial {
+  width: 100%;
+}
