@@ -333,5 +333,5 @@ hr {
   width: 80%;
   margin: auto;
   display: flex;
-  
+  justify-content: space-between;
 }
