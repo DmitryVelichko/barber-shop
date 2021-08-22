@@ -346,6 +346,7 @@ hr {
   border-radius: 5px;
   box-shadow: 0 10px 20px 3px #00968814;
   cursor: pointer;
+  transition: tranform 0.5s;
 }
 
 .testimonial-col p {
@@ -372,4 +373,20 @@ font-size: 20px;
 
 .user-info small {
   color: #009688;
+}
+
+.testimonial-col:hover {
+  transform: translateY(-7px);
+}
+@media screen and (max-width: 770px) {
+  .testimonial-col{
+    flex-basis: 100%;
+  }
+}
+
+/* footer */
+
+#footer {
+  padding: 100px 0 20px;
+  background: #efefef;
 }
