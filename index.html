@@ -229,7 +229,15 @@
         <p>+7 1234567<i class='fa fa-phone'></i></p>
       </div>
     </div>
-    
+
+    <div class="social-links">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube-play"></i>
+      <p id="copyright"></p>
+    </div>
+
   </section>    
 
     <!-- Scripts -->
@@ -247,11 +255,14 @@
           menu.src = "images/close.png";
         } else {
           sideNav.style.right = "-250px";
-          menu.src = "images/menu.png";
-          
+          menu.src = "images/menu.png";      
         }
       };
 
+      window.onload = () => {
+        let currentYear = new Date().getFullYear();
+        document.getElementById('copyright').innerHTML = `Copyright &copy; ${currentYear}`;
+      }
       
       
 
