@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://use.fontawesome.com/05634a7ec8.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Barbershop</title>
   </head>
@@ -30,11 +31,11 @@
     <div id="sideNav">
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">FEATURES</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">TESTIMONIALS</a></li>
-          <li><a href="#">MEET US</a></li>
+          <li><a href="#banner">HOME</a></li>
+          <li><a href="#feature">FEATURES</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#testimonials">TESTIMONIALS</a></li>
+          <li><a href="#footer">MEET US</a></li>
         </ul>
       </nav>
     </div>
@@ -154,7 +155,7 @@
       </div>
     </section>
 
-    <section id="testimonial">
+    <section id="testimonials">
       <div class="title-text">
         <p>TESTIMONIALS</p>
         <h1>What Client Says</h1>
@@ -264,7 +265,11 @@
         document.getElementById('copyright').innerHTML = `Copyright &copy; ${currentYear}`;
       }
       
-      
+      // All animations will take exactly 500ms
+let scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
 
     </script>
   </body>
