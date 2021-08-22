@@ -364,3 +364,12 @@ hr {
   border-radius: 3px;
 }
 
+.user-info .fa {
+  margin-left: 10px;
+color: #27c0ff;
+font-size: 20px;
+}
+
+.user-info small {
+  color: #009688;
+}
