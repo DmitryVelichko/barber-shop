@@ -351,3 +351,10 @@ hr {
 .testimonial-col p {
  font-size: 14px; 
 }
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
