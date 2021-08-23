@@ -8,6 +8,9 @@ A website built with HTML, CSS, JavaScript.
 
 ![image](https://user-images.githubusercontent.com/42185328/130476462-fe85076c-532f-4327-a60d-a70202b11c94.png)
 
+![image](https://user-images.githubusercontent.com/42185328/130476547-6482a3d0-308b-4bdf-8b0f-4e25cca4eff7.png)
+
+
 
 
 
