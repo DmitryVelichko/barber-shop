@@ -6,5 +6,8 @@ A website built with HTML, CSS, JavaScript.
 
 ![image](https://user-images.githubusercontent.com/42185328/130464339-b1b57eb3-4418-4839-bee3-080d12d91695.png)
 
+![image](https://user-images.githubusercontent.com/42185328/130476462-fe85076c-532f-4327-a60d-a70202b11c94.png)
+
+
 
 
