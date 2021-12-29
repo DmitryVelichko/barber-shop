@@ -1,6 +1,6 @@
 A website built with HTML, CSS, JavaScript.
 
-Check out the live website here: https://dmitryvelichko.github.io/barber-shop/
+[Check out the live website here.](https://dmitryvelichko.github.io/barber-shop/)
 
 ![image](https://user-images.githubusercontent.com/42185328/130464168-cfe7a20c-58db-4c16-813e-8214a589466a.png)
 
